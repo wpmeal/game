@@ -13,7 +13,7 @@
 
 <body>
     <div id="playBoard">
-        <button type="button" id="submit">Submit</button>
+        <button type="button" id="submity">Submit</button>
 
     </div>
 
@@ -22,3 +22,51 @@
     </body>
 
     </html>
+
+
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hangman</h1>
+    <h3>Guess the word or get hanged ;)</h3>
+    <!-- guess a letter in the word and 'guess' and 'play again' buttons -->
+    <form id="hangman">
+        <input type="text" name="letter" id="letter" maxlength="1" minlength="1" placeholder="Guess a letter">
+        <input type="submit" name="guess" id="guess" value="Guess">
+        <button id="play-again" name="play again" type="button"> Play Again</button>
+    </form>
+    <!-- where the hangman forms as u play, js -->
+    <canvas id="stickman"></canvas>
+    <!-- the alphabet, js -->
+    <ul id="letters"></ul>
+    <!-- how many lives u have left, js -->
+    <p id="man"></p>
+    <!-- to show result, win, warning?, error? etc -->
+    <p id="output" class="output"></p>
+
+
+
+    
+    <div id="playBoard">
+        <button type="button" id="submity">Submit</button>
+
+    </div>
+
+    <script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>

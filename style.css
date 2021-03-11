@@ -1,0 +1,18 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(177, 208, 255);
+}
+
+canvas{
+    color: #222;
+    border: #222 dashed 2px;
+    padding:75px;
+    margin: 2rem;
+  }
