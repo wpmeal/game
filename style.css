@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 body{
     margin: 0;
+<<<<<<< HEAD
     height: 100%;
     font-family: 'RocknRoll One', sans-serif;
+=======
+    font-family: sans-serif;
+>>>>>>> 6bea78589dba9e38e455377ba8ee24aa16387a6e
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(177, 208, 255);
+    padding:2%;
 }
+li {
+    list-style-type: none; 
 
+}
+ul {
+    display: inline-flex;
+}
 canvas{
     color: #222;
     border: #222 dashed 2px;
@@ -17,6 +28,7 @@ canvas{
     padding:75px;
     margin: 2rem;
   }
+<<<<<<< HEAD
 
 button{
     margin: 1rem;
@@ -46,3 +58,8 @@ input{
       outline: none;
       border: rgb(86, 10, 228) solid 1.5px;
   }
+=======
+  /* .play-btn {
+   margin:50%;
+  }  */
+>>>>>>> 6bea78589dba9e38e455377ba8ee24aa16387a6e
