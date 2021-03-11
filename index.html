@@ -1,37 +1,4 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
-</head>
-
-<body>
-    <div id="playBoard">
-        <button type="button" id="submity">Submit</button>
-
-    </div>
-
-    <script type="text/javascript" src="game.js"></script>
-
-    </body>
-
-    </html>
-
-
-
-
-
-
-
-
-
-    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,11 +11,15 @@
     <h1>Hangman</h1>
     <h3>Guess the word or get hanged ;)</h3>
     <!-- guess a letter in the word and 'guess' and 'play again' buttons -->
-    <form id="hangman">
+    <div id="playBoard">
+        <button type="button" id="submity">Submit</button>
+
+    </div>
+    <!-- <form id="hangman">
         <input type="text" name="letter" id="letter" maxlength="1" minlength="1" placeholder="Guess a letter">
         <input type="submit" name="guess" id="guess" value="Guess">
         <button id="play-again" name="play again" type="button"> Play Again</button>
-    </form>
+    </form> -->
     <!-- where the hangman forms as u play, js -->
     <canvas id="stickman"></canvas>
     <!-- the alphabet, js -->
@@ -57,14 +28,6 @@
     <p id="man"></p>
     <!-- to show result, win, warning?, error? etc -->
     <p id="output" class="output"></p>
-
-
-
-    
-    <div id="playBoard">
-        <button type="button" id="submity">Submit</button>
-
-    </div>
 
     <script type="text/javascript" src="game.js"></script>
 

@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    height: 100vh;
+    height: 100%;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -15,4 +15,13 @@ canvas{
     border: #222 dashed 2px;
     padding:75px;
     margin: 2rem;
+  }
+
+button{
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(31, 31, 143);
+    font-size: larger;
+    outline: none;
+    color: #eee;
   }
