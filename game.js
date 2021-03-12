@@ -98,6 +98,7 @@ let hintLettersShowedToPlayer_List =
                 this.drawHangManHead();
                 this.drawHangManBody();
                 this.drawHangManLegs();
+                this.drawHangManArms();
 
 
         }
@@ -141,6 +142,13 @@ let hintLettersShowedToPlayer_List =
         this.context.stroke();
 
     }
+    // drawHangManArms() {
+    //     // body
+    //     this.context.moveTo(100, 70);
+    //     this.context.lineTo(30, 170);
+    //     this.context.stroke();
+
+    // }
     drawHangManLegs() {
         // legs left
         this.context.moveTo(100, 100);
