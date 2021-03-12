@@ -98,7 +98,7 @@ let hintLettersShowedToPlayer_List =
                 this.drawHangManHead();
                 this.drawHangManBody();
                 this.drawHangManLegs();
-                this.drawHangManArms();
+           //     this.drawHangManArms();
 
 
         }
