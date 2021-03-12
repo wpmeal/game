@@ -40,9 +40,6 @@ let hintLettersShowedToPlayer_List =
             $input.setAttribute("value", el);
             playBoard.querySelector("ul").append($li);
             playBoard.querySelector("li:last-child").append($input);
-
-
-
             $i++;
 
 
@@ -56,11 +53,10 @@ let hintLettersShowedToPlayer_List =
         this.misstakenGuess = 0;
         let playerAnswer = playBoard.querySelectorAll("input")
 
-
         //console.log(ls);
         // console.log(playerAnswer);
         playerAnswer.forEach(el => {
-            let $hr = document.createElement('hr');
+          //  let $hr = document.createElement('hr');
             //  console.log(el.value);
 
             if (el.value != this.wordToBeGuessed_List[el.name]) {
@@ -70,7 +66,6 @@ let hintLettersShowedToPlayer_List =
                 //  myStickman = document.getElementById("stickman");
                 // console.log(stickman);
             }
-
 
 
         })
